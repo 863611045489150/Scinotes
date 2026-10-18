@@ -1,0 +1,2659 @@
+[
+  {
+    "id": "ch01-chemical-reactions",
+    "subject": "Chemistry",
+    "classGrade": "CBSE Class 10",
+    "chapterNumber": 1,
+    "title": "Chemical Reactions and Equations",
+    "subtitle": "Balancing, Types of Reactions, Redox & Corrosion",
+    "status": "published",
+    "version": 1,
+    "lastUpdated": "2026-10-18T09:30:00Z",
+    "estimatedReadTime": "18 min read",
+    "sourceInfo": {
+      "notebookTitle": "Class 10 Chemistry Notebook — Term 1",
+      "notebookPages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "author": "CBSE Science Scholar",
+      "transcribedAt": "2026-10-18T09:45:00Z",
+      "transcriptionModel": "Gemini Multimodal Vision (gemini-2.5-flash)",
+      "confidenceScore": 98.2,
+      "flaggedUncertaintiesCount": 1
+    },
+    "summary": "Master the law of conservation of mass in balanced chemical equations, five core reaction types (Combination, Decomposition, Displacement, Double Displacement, Redox), and everyday oxidation effects.",
+    "tableOfContents": [
+      {
+        "sectionId": "sec-1-1",
+        "sectionNumber": "1.1",
+        "title": "Chemical Reactions & Balancing Equations"
+      },
+      {
+        "sectionId": "sec-1-2",
+        "sectionNumber": "1.2",
+        "title": "Types of Chemical Reactions"
+      },
+      {
+        "sectionId": "sec-1-3",
+        "sectionNumber": "1.3",
+        "title": "Oxidation-Reduction, Corrosion & Rancidity"
+      }
+    ],
+    "sections": [
+      {
+        "id": "sec-1-1",
+        "sectionNumber": "1.1",
+        "title": "Chemical Reactions & Balancing Equations",
+        "summary": "Observable chemical changes and mass conservation balancing.",
+        "sourceNotebookPages": [
+          1
+        ],
+        "paragraphs": [
+          "A chemical reaction involves chemical change where original substances (reactants) lose their identity and form new substances (products) with entirely different properties.",
+          "Observable indicators of a chemical reaction include: change in state, change in colour, evolution of a gas, or change in temperature.",
+          "According to the Law of Conservation of Mass (Antoine Lavoisier), total mass of elements present in the products must equal the total mass of elements present in the reactants. Hence, every chemical equation must be balanced."
+        ],
+        "equations": [
+          {
+            "id": "eq-iron-steam",
+            "reactants": "3Fe(s) + 4H₂O(g)",
+            "products": "Fe₃O₄(s) + 4H₂(g)",
+            "arrowText": "Heat (Red Hot Iron)",
+            "reactionType": "Metal Oxidation / Redox",
+            "balanced": true,
+            "notes": "Iron reacts with steam (gaseous water) to produce magnetic iron oxide (iron(II,III) oxide) and hydrogen gas."
+          },
+          {
+            "id": "eq-magnesium-burn",
+            "reactants": "2Mg(s) + O₂(g)",
+            "products": "2MgO(s)",
+            "arrowText": "Ignition (Dazzling White Flame)",
+            "reactionType": "Combination / Exothermic",
+            "balanced": true,
+            "notes": "Magnesium ribbon is cleaned with sandpaper before burning to remove the protective layer of basic magnesium oxide/carbonate."
+          }
+        ],
+        "definitions": [
+          {
+            "id": "def-balanced-eq",
+            "term": "Balanced Chemical Equation",
+            "definition": "A chemical equation in which the number of atoms of each element on the reactant side is equal to that on the product side, obeying the Law of Conservation of Mass.",
+            "keyPoints": [
+              "State symbols must be specified: (s), (l), (g), (aq)",
+              "Stoichiometric coefficients must be smallest whole integers"
+            ],
+            "cbseFrequency": "Very High",
+            "sourcePageRef": 1
+          }
+        ],
+        "uncertainties": [],
+        "examTips": [
+          {
+            "id": "tip-mg-cleaning",
+            "question": "Why should a magnesium ribbon be cleaned before burning in air?",
+            "answerOutline": "Magnesium is a reactive metal. When stored, it reacts with atmospheric oxygen and moisture to form an unreactive coating of basic magnesium oxide (MgO). Sandpaper removes this coat so it burns smoothly.",
+            "yearAsked": "CBSE 2023, 2020, 2017"
+          }
+        ],
+        "keyTakeaways": [
+          "Always use state symbols: solid (s), liquid (l), gas (g), aqueous solution (aq).",
+          "Catalysts, temperature, and pressure conditions are written above or below the reaction arrow."
+        ]
+      },
+      {
+        "id": "sec-1-2",
+        "sectionNumber": "1.2",
+        "title": "Types of Chemical Reactions",
+        "summary": "Combination, Decomposition, Displacement, and Double Displacement.",
+        "sourceNotebookPages": [
+          2,
+          3
+        ],
+        "paragraphs": [
+          "Chemical reactions can be classified into distinct patterns: Combination (two or more reactants combine into one single product), Decomposition (a single reactant splits into two or more products), Displacement (a more reactive element displaces a less reactive element), and Double Displacement (exchange of ions between two aqueous compounds forming a precipitate)."
+        ],
+        "diagrams": [
+          {
+            "id": "diag-electrolysis",
+            "title": "Electrolysis of Water (Decomposition Apparatus)",
+            "caption": "Acidified water is electrolysed. Hydrogen gas is collected at the cathode and oxygen at the anode in a 2:1 volume ratio, proving water’s stoichiometry (H₂O).",
+            "diagramType": "apparatus",
+            "sourcePageRef": 2,
+            "svgPresetKey": "electrolysis",
+            "searchQuery": "Electrolysis of water Class 10 NCERT chemistry apparatus",
+            "attribution": "CBSE NCERT Class 10 Activity 1.7 Apparatus",
+            "license": "Open Educational License",
+            "labels": [
+              {
+                "name": "Cathode (-ve electrode)",
+                "description": "Hydrogen gas (H₂) evolves here (2 parts volume)"
+              },
+              {
+                "name": "Anode (+ve electrode)",
+                "description": "Oxygen gas (O₂) evolves here (1 part volume)"
+              },
+              {
+                "name": "Acidified Water",
+                "description": "Few drops of H₂SO₄ added to increase electrical conductivity"
+              },
+              {
+                "name": "6V Battery & Switch",
+                "description": "Direct current source for electrolysis"
+              }
+            ]
+          }
+        ],
+        "equations": [
+          {
+            "id": "eq-slaked-lime",
+            "reactants": "CaO(s) + H₂O(l)",
+            "products": "Ca(OH)₂(aq) + Heat",
+            "arrowText": "Exothermic Dissolution",
+            "reactionType": "Combination Reaction",
+            "balanced": true,
+            "notes": "Quick lime reacts vigorously with water producing slaked lime (calcium hydroxide) releasing large heat. Used for whitewashing walls."
+          },
+          {
+            "id": "eq-lead-nitrate",
+            "reactants": "2Pb(NO₃)₂(s)",
+            "products": "2PbO(s) + 4NO₂(g) + O₂(g)",
+            "arrowText": "Δ (Thermal Decomposition)",
+            "reactionType": "Thermal Decomposition",
+            "balanced": true,
+            "notes": "White lead nitrate crystals crackle on heating, yielding yellow lead monoxide, pungent brown fumes of nitrogen dioxide (NO₂), and oxygen."
+          },
+          {
+            "id": "eq-precipitation",
+            "reactants": "Na₂SO₄(aq) + BaCl₂(aq)",
+            "products": "BaSO₄↓(s) + 2NaCl(aq)",
+            "arrowText": "Ion Exchange",
+            "reactionType": "Double Displacement / Precipitation",
+            "balanced": true,
+            "notes": "A white precipitate of barium sulphate is formed instantaneously by the mutual exchange of SO₄²⁻ and Ba²⁺ ions."
+          }
+        ],
+        "uncertainties": [
+          {
+            "id": "unc-chemistry-1",
+            "originalText": "BaSO4 colur: yellow / white",
+            "suspectedText": "White precipitate of BaSO₄",
+            "sourcePage": 3,
+            "reason": "Note had an illegible strikethrough next to barium sulphate colour.",
+            "resolved": true,
+            "resolvedText": "White precipitate (insoluble)",
+            "contextSnippet": "Formation of [White precipitate] of BaSO₄."
+          }
+        ],
+        "examTips": [
+          {
+            "id": "tip-electrolysis-ratio",
+            "question": "Why is the volume of gas collected in one of the test tubes during electrolysis of water double the volume in the other? Name this gas.",
+            "answerOutline": "Water contains 2 hydrogen atoms and 1 oxygen atom per molecule (H₂O). On decomposition (2H₂O → 2H₂ + O₂), hydrogen is liberated in double the molar volume of oxygen at the cathode.",
+            "yearAsked": "CBSE 2023, 2019, 2015"
+          }
+        ],
+        "keyTakeaways": [
+          "Decomposition reactions require energy in the form of heat (thermal), light (photolytic), or electricity (electrolytic).",
+          "Silver chloride (AgCl) turns grey in sunlight: 2AgCl(s) → 2Ag(s) + Cl₂(g), used in black and white photography."
+        ]
+      }
+    ],
+    "revisionChecklist": [
+      "Balance chemical equations for thermal decomposition of Ferrous Sulphate and Lead Nitrate.",
+      "Identify what gas causes a popping sound (H₂) and what turns lime water milky (CO₂).",
+      "Explain oxidation in terms of gain of oxygen / loss of hydrogen / loss of electrons."
+    ]
+  },
+  {
+    "id": "ch02-acids-bases-and-salts",
+    "subject": "Chemistry",
+    "classGrade": "CBSE Class 10",
+    "chapterNumber": 2,
+    "title": "Acids, Bases and Salts",
+    "subtitle": "pH Scale, Indicators & Industrial Salts",
+    "status": "draft",
+    "version": 1,
+    "lastUpdated": "2026-10-18T18:29:36.961Z",
+    "estimatedReadTime": "Pending Notes Transcription",
+    "sourceInfo": {
+      "notebookTitle": "Pending Notebook Notes (Ch 2)",
+      "notebookPages": [],
+      "author": "Pending Upload / Dev Conversation Sync",
+      "transcribedAt": "Pending",
+      "transcriptionModel": "Gemini Multimodal (gemini-2.5-flash)",
+      "confidenceScore": 0,
+      "flaggedUncertaintiesCount": 0
+    },
+    "summary": "Awaiting handwritten notes for Chapter 2: Acids, Bases and Salts. Covers NCERT syllabus: Chemical Substances - Nature and Behaviour. Ready to transcribe when photos/PDFs are provided.",
+    "tableOfContents": [
+      {
+        "sectionId": "sec-2-1",
+        "sectionNumber": "2.1",
+        "title": "Chemical properties of acids and bases"
+      },
+      {
+        "sectionId": "sec-2-2",
+        "sectionNumber": "2.2",
+        "title": "Reaction with metals and carbonates"
+      },
+      {
+        "sectionId": "sec-2-3",
+        "sectionNumber": "2.3",
+        "title": "pH scale & everyday importance"
+      },
+      {
+        "sectionId": "sec-2-4",
+        "sectionNumber": "2.4",
+        "title": "Chlor-alkali process, Bleaching Powder, Baking Soda, Plaster of Paris"
+      }
+    ],
+    "sections": [
+      {
+        "id": "sec-2-1",
+        "sectionNumber": "2.1",
+        "title": "Chemical properties of acids and bases",
+        "summary": "Placeholder section for Chemical properties of acids and bases.",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-2-1",
+            "title": "Reaction of Zinc with Dilute H2SO4",
+            "caption": "Recommended NCERT scientific illustration for Chemical properties of acids and bases.",
+            "diagramType": "schematic",
+            "searchQuery": "Chemical properties of acids and bases Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Chemical properties of acids and bases",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      },
+      {
+        "id": "sec-2-2",
+        "sectionNumber": "2.2",
+        "title": "Reaction with metals and carbonates",
+        "summary": "Placeholder section for Reaction with metals and carbonates.",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-2-2",
+            "title": "Electrolysis of Brine (Chlor-alkali cell)",
+            "caption": "Recommended NCERT scientific illustration for Reaction with metals and carbonates.",
+            "diagramType": "schematic",
+            "searchQuery": "Reaction with metals and carbonates Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Reaction with metals and carbonates",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      },
+      {
+        "id": "sec-2-3",
+        "sectionNumber": "2.3",
+        "title": "pH scale & everyday importance",
+        "summary": "Placeholder section for pH scale & everyday importance.",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-2-3",
+            "title": "pH indicator color chart",
+            "caption": "Recommended NCERT scientific illustration for pH scale & everyday importance.",
+            "diagramType": "schematic",
+            "searchQuery": "pH scale & everyday importance Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: pH scale & everyday importance",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      },
+      {
+        "id": "sec-2-4",
+        "sectionNumber": "2.4",
+        "title": "Chlor-alkali process, Bleaching Powder, Baking Soda, Plaster of Paris",
+        "summary": "Placeholder section for Chlor-alkali process, Bleaching Powder, Baking Soda, Plaster of Paris.",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-2-4",
+            "title": "Reaction of Zinc with Dilute H2SO4",
+            "caption": "Recommended NCERT scientific illustration for Chlor-alkali process, Bleaching Powder, Baking Soda, Plaster of Paris.",
+            "diagramType": "schematic",
+            "searchQuery": "Chlor-alkali process, Bleaching Powder, Baking Soda, Plaster of Paris Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Chlor-alkali process, Bleaching Powder, Baking Soda, Plaster of Paris",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      }
+    ],
+    "revisionChecklist": [
+      "Master core definitions and diagrams for Chemical properties of acids and bases.",
+      "Master core definitions and diagrams for Reaction with metals and carbonates.",
+      "Master core definitions and diagrams for pH scale & everyday importance.",
+      "Master core definitions and diagrams for Chlor-alkali process, Bleaching Powder, Baking Soda, Plaster of Paris."
+    ]
+  },
+  {
+    "id": "ch03-metals-and-non-metals",
+    "subject": "Chemistry",
+    "classGrade": "CBSE Class 10",
+    "chapterNumber": 3,
+    "title": "Metals and Non-metals",
+    "subtitle": "Reactivity Series, Ionic Bonds & Metallurgy",
+    "status": "draft",
+    "version": 1,
+    "lastUpdated": "2026-10-18T18:29:36.962Z",
+    "estimatedReadTime": "Pending Notes Transcription",
+    "sourceInfo": {
+      "notebookTitle": "Pending Notebook Notes (Ch 3)",
+      "notebookPages": [],
+      "author": "Pending Upload / Dev Conversation Sync",
+      "transcribedAt": "Pending",
+      "transcriptionModel": "Gemini Multimodal (gemini-2.5-flash)",
+      "confidenceScore": 0,
+      "flaggedUncertaintiesCount": 0
+    },
+    "summary": "Awaiting handwritten notes for Chapter 3: Metals and Non-metals. Covers NCERT syllabus: Chemical Substances - Nature and Behaviour. Ready to transcribe when photos/PDFs are provided.",
+    "tableOfContents": [
+      {
+        "sectionId": "sec-3-1",
+        "sectionNumber": "3.1",
+        "title": "Physical & chemical properties"
+      },
+      {
+        "sectionId": "sec-3-2",
+        "sectionNumber": "3.2",
+        "title": "Reactivity series of metals"
+      },
+      {
+        "sectionId": "sec-3-3",
+        "sectionNumber": "3.3",
+        "title": "Ionic bond formation (NaCl, MgCl2)"
+      },
+      {
+        "sectionId": "sec-3-4",
+        "sectionNumber": "3.4",
+        "title": "Extraction of metals (Roasting, Calcination, Electrolytic refining)"
+      }
+    ],
+    "sections": [
+      {
+        "id": "sec-3-1",
+        "sectionNumber": "3.1",
+        "title": "Physical & chemical properties",
+        "summary": "Placeholder section for Physical & chemical properties.",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-3-1",
+            "title": "Electrolytic Refining of Copper",
+            "caption": "Recommended NCERT scientific illustration for Physical & chemical properties.",
+            "diagramType": "schematic",
+            "searchQuery": "Physical & chemical properties Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Physical & chemical properties",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      },
+      {
+        "id": "sec-3-2",
+        "sectionNumber": "3.2",
+        "title": "Reactivity series of metals",
+        "summary": "Placeholder section for Reactivity series of metals.",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-3-2",
+            "title": "Action of Steam on Metal",
+            "caption": "Recommended NCERT scientific illustration for Reactivity series of metals.",
+            "diagramType": "schematic",
+            "searchQuery": "Reactivity series of metals Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Reactivity series of metals",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      },
+      {
+        "id": "sec-3-3",
+        "sectionNumber": "3.3",
+        "title": "Ionic bond formation (NaCl, MgCl2)",
+        "summary": "Placeholder section for Ionic bond formation (NaCl, MgCl2).",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-3-3",
+            "title": "Rusting of Iron test-tube experiment",
+            "caption": "Recommended NCERT scientific illustration for Ionic bond formation (NaCl, MgCl2).",
+            "diagramType": "schematic",
+            "searchQuery": "Ionic bond formation (NaCl, MgCl2) Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Ionic bond formation (NaCl, MgCl2)",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      },
+      {
+        "id": "sec-3-4",
+        "sectionNumber": "3.4",
+        "title": "Extraction of metals (Roasting, Calcination, Electrolytic refining)",
+        "summary": "Placeholder section for Extraction of metals (Roasting, Calcination, Electrolytic refining).",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-3-4",
+            "title": "Electrolytic Refining of Copper",
+            "caption": "Recommended NCERT scientific illustration for Extraction of metals (Roasting, Calcination, Electrolytic refining).",
+            "diagramType": "schematic",
+            "searchQuery": "Extraction of metals (Roasting, Calcination, Electrolytic refining) Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Extraction of metals (Roasting, Calcination, Electrolytic refining)",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      }
+    ],
+    "revisionChecklist": [
+      "Master core definitions and diagrams for Physical & chemical properties.",
+      "Master core definitions and diagrams for Reactivity series of metals.",
+      "Master core definitions and diagrams for Ionic bond formation (NaCl, MgCl2).",
+      "Master core definitions and diagrams for Extraction of metals (Roasting, Calcination, Electrolytic refining)."
+    ]
+  },
+  {
+    "id": "ch04-carbon-and-its-compounds",
+    "subject": "Chemistry",
+    "classGrade": "CBSE Class 10",
+    "chapterNumber": 4,
+    "title": "Carbon and its Compounds",
+    "subtitle": "Covalent Bonding, Versatile Carbon & Hydrocarbons",
+    "status": "draft",
+    "version": 1,
+    "lastUpdated": "2026-10-18T18:29:36.962Z",
+    "estimatedReadTime": "Pending Notes Transcription",
+    "sourceInfo": {
+      "notebookTitle": "Pending Notebook Notes (Ch 4)",
+      "notebookPages": [],
+      "author": "Pending Upload / Dev Conversation Sync",
+      "transcribedAt": "Pending",
+      "transcriptionModel": "Gemini Multimodal (gemini-2.5-flash)",
+      "confidenceScore": 0,
+      "flaggedUncertaintiesCount": 0
+    },
+    "summary": "Awaiting handwritten notes for Chapter 4: Carbon and its Compounds. Covers NCERT syllabus: Chemical Substances - Nature and Behaviour. Ready to transcribe when photos/PDFs are provided.",
+    "tableOfContents": [
+      {
+        "sectionId": "sec-4-1",
+        "sectionNumber": "4.1",
+        "title": "Covalent bonding & allotropes of carbon"
+      },
+      {
+        "sectionId": "sec-4-2",
+        "sectionNumber": "4.2",
+        "title": "Homologous series & functional groups"
+      },
+      {
+        "sectionId": "sec-4-3",
+        "sectionNumber": "4.3",
+        "title": "Combustion, Oxidation, Addition, Substitution"
+      },
+      {
+        "sectionId": "sec-4-4",
+        "sectionNumber": "4.4",
+        "title": "Ethanol and Ethanoic Acid properties, Soaps and Detergents micelle action"
+      }
+    ],
+    "sections": [
+      {
+        "id": "sec-4-1",
+        "sectionNumber": "4.1",
+        "title": "Covalent bonding & allotropes of carbon",
+        "summary": "Placeholder section for Covalent bonding & allotropes of carbon.",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-4-1",
+            "title": "Formation of Soap Micelle",
+            "caption": "Recommended NCERT scientific illustration for Covalent bonding & allotropes of carbon.",
+            "diagramType": "schematic",
+            "searchQuery": "Covalent bonding & allotropes of carbon Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Covalent bonding & allotropes of carbon",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      },
+      {
+        "id": "sec-4-2",
+        "sectionNumber": "4.2",
+        "title": "Homologous series & functional groups",
+        "summary": "Placeholder section for Homologous series & functional groups.",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-4-2",
+            "title": "Electron Dot Structures (CH4, C2H4, CO2)",
+            "caption": "Recommended NCERT scientific illustration for Homologous series & functional groups.",
+            "diagramType": "schematic",
+            "searchQuery": "Homologous series & functional groups Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Homologous series & functional groups",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      },
+      {
+        "id": "sec-4-3",
+        "sectionNumber": "4.3",
+        "title": "Combustion, Oxidation, Addition, Substitution",
+        "summary": "Placeholder section for Combustion, Oxidation, Addition, Substitution.",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-4-3",
+            "title": "Esterification Reaction Apparatus",
+            "caption": "Recommended NCERT scientific illustration for Combustion, Oxidation, Addition, Substitution.",
+            "diagramType": "schematic",
+            "searchQuery": "Combustion, Oxidation, Addition, Substitution Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Combustion, Oxidation, Addition, Substitution",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      },
+      {
+        "id": "sec-4-4",
+        "sectionNumber": "4.4",
+        "title": "Ethanol and Ethanoic Acid properties, Soaps and Detergents micelle action",
+        "summary": "Placeholder section for Ethanol and Ethanoic Acid properties, Soaps and Detergents micelle action.",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-4-4",
+            "title": "Formation of Soap Micelle",
+            "caption": "Recommended NCERT scientific illustration for Ethanol and Ethanoic Acid properties, Soaps and Detergents micelle action.",
+            "diagramType": "schematic",
+            "searchQuery": "Ethanol and Ethanoic Acid properties, Soaps and Detergents micelle action Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Ethanol and Ethanoic Acid properties, Soaps and Detergents micelle action",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      }
+    ],
+    "revisionChecklist": [
+      "Master core definitions and diagrams for Covalent bonding & allotropes of carbon.",
+      "Master core definitions and diagrams for Homologous series & functional groups.",
+      "Master core definitions and diagrams for Combustion, Oxidation, Addition, Substitution.",
+      "Master core definitions and diagrams for Ethanol and Ethanoic Acid properties, Soaps and Detergents micelle action."
+    ]
+  },
+  {
+    "id": "ch05-life-processes",
+    "subject": "Biology",
+    "classGrade": "CBSE Class 10",
+    "chapterNumber": 5,
+    "title": "Life Processes",
+    "subtitle": "Nutrition, Respiration, Transportation & Excretion",
+    "status": "published",
+    "version": 1,
+    "lastUpdated": "2026-10-18T10:00:00Z",
+    "estimatedReadTime": "22 min read",
+    "sourceInfo": {
+      "notebookTitle": "Class 10 Biology Notebook — Term 1",
+      "notebookPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "author": "CBSE Science Scholar",
+      "transcribedAt": "2026-10-18T10:30:00Z",
+      "transcriptionModel": "Gemini Multimodal Vision (gemini-2.5-flash)",
+      "confidenceScore": 97.4,
+      "flaggedUncertaintiesCount": 2
+    },
+    "summary": "A comprehensive synthesis of essential maintenance functions in living organisms: Autotrophic and Heterotrophic Nutrition, Respiration pathways, Double Circulation in the Human Heart, and Selective Reabsorption in the Nephron.",
+    "tableOfContents": [
+      {
+        "sectionId": "sec-6-1",
+        "sectionNumber": "6.1",
+        "title": "What are Life Processes & Nutrition"
+      },
+      {
+        "sectionId": "sec-6-2",
+        "sectionNumber": "6.2",
+        "title": "Respiration & Cellular Energy Breakdown"
+      },
+      {
+        "sectionId": "sec-6-3",
+        "sectionNumber": "6.3",
+        "title": "Transportation in Human Beings (Heart & Blood)"
+      },
+      {
+        "sectionId": "sec-6-4",
+        "sectionNumber": "6.4",
+        "title": "Excretion in Human Beings (Nephron & Kidneys)"
+      }
+    ],
+    "sections": [
+      {
+        "id": "sec-6-1",
+        "sectionNumber": "6.1",
+        "title": "What are Life Processes & Nutrition",
+        "summary": "Maintenance processes needed to prevent damage and break-down of body organs.",
+        "sourceNotebookPages": [
+          1,
+          2
+        ],
+        "paragraphs": [
+          "All living organisms perform life processes—maintenance operations that must continue even while an individual is asleep or inactive. Since energy is needed for these maintenance jobs, it must be taken from outside the body via nutrition.",
+          "In Autotrophic Nutrition, green plants take in carbon dioxide and water from the environment and convert them into stored carbohydrates (starch) using solar radiation trapped by chlorophyll.",
+          "Heterotrophs cannot synthesise organic molecules directly and depend upon autotrophs. Holozoic nutrition involves ingestion, digestion, absorption, assimilation, and egestion, exemplified by Amoeba and human digestion."
+        ],
+        "definitions": [
+          {
+            "id": "def-nutrition",
+            "term": "Life Processes",
+            "definition": "The fundamental biological functions performed by living organisms to maintain their existence, repair tissues, and sustain survival.",
+            "keyPoints": [
+              "Includes nutrition, respiration, transport, excretion",
+              "Energy is constantly required from external food sources"
+            ],
+            "cbseFrequency": "High",
+            "sourcePageRef": 1
+          },
+          {
+            "id": "def-autotroph",
+            "term": "Autotrophic Nutrition",
+            "definition": "A mode of nutrition where organisms synthesise their own food from simple inorganic raw materials like CO₂ and H₂O in the presence of chlorophyll and sunlight.",
+            "keyPoints": [
+              "Characteristic of green plants and cyanobacteria",
+              "Excess carbohydrates stored as starch"
+            ],
+            "cbseFrequency": "Very High",
+            "sourcePageRef": 1
+          }
+        ],
+        "equations": [
+          {
+            "id": "eq-photosynthesis",
+            "reactants": "6CO₂(aq) + 12H₂O(l)",
+            "products": "C₆H₁₂O₆(aq) + 6O₂(g) + 6H₂O(l)",
+            "arrowText": "Sunlight / Chlorophyll",
+            "reactionType": "Photosynthesis (Endothermic Synthesis)",
+            "balanced": true,
+            "notes": "Occurs in three steps: Absorption of light energy by chlorophyll, conversion of light energy to chemical energy & splitting of water molecules, and reduction of carbon dioxide to carbohydrates."
+          }
+        ],
+        "diagrams": [
+          {
+            "id": "diag-stomata",
+            "title": "Stomatal Apparatus (Open vs Closed Pore)",
+            "caption": "Guard cells swell when water flows into them, causing the stomatal pore to open. When guard cells lose water, they shrink and the pore closes.",
+            "diagramType": "anatomical",
+            "sourcePageRef": 2,
+            "svgPresetKey": "stomata",
+            "searchQuery": "Stoma guard cells biology diagram",
+            "attribution": "CBSE Curriculum Standard Science Diagram",
+            "license": "Open Educational License",
+            "labels": [
+              {
+                "name": "Guard Cells",
+                "description": "Kidney-shaped cells regulating pore aperture"
+              },
+              {
+                "name": "Stomatal Pore",
+                "description": "Aperture for gas exchange (CO₂ and O₂)"
+              },
+              {
+                "name": "Chloroplasts",
+                "description": "Contain chlorophyll pigment"
+              },
+              {
+                "name": "Epidermal Cells",
+                "description": "Surrounding protective layer"
+              }
+            ]
+          }
+        ],
+        "examTips": [
+          {
+            "id": "tip-desert-plants",
+            "question": "How do desert plants take up carbon dioxide without losing excessive water?",
+            "answerOutline": "Desert plants take up CO₂ at night when stomata are open and prepare an intermediate compound. During daylight, energy absorbed by chlorophyll acts on this intermediate.",
+            "yearAsked": "CBSE 2023, 2019 Board Exam",
+            "commonPitfall": "Students forget to mention night-time CO₂ uptake (crassulacean acid metabolism context)."
+          }
+        ],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Raw materials for photosynthesis: CO₂ (from air through stomata), H₂O (from soil via roots), sunlight, chlorophyll.",
+          "Bile juice does not contain enzymes but emulsifies large fat globules and provides an alkaline medium for pancreatic lipase."
+        ]
+      },
+      {
+        "id": "sec-6-2",
+        "sectionNumber": "6.2",
+        "title": "Respiration & Cellular Energy Breakdown",
+        "summary": "Glycolysis in cytoplasm followed by aerobic, anaerobic, or fermentation fates of pyruvate.",
+        "sourceNotebookPages": [
+          3
+        ],
+        "paragraphs": [
+          "Respiration is the cellular process by which assimilated food is oxidised to release energy in the form of Adenosine Triphosphate (ATP), the energy currency of the cell.",
+          "The first step is Glycolysis: 1 molecule of 6-carbon Glucose is cleaved into two 3-carbon Pyruvate molecules in the cytoplasm without requiring oxygen. The fate of pyruvate depends upon the availability of oxygen."
+        ],
+        "tables": [
+          {
+            "id": "tbl-respiration-compare",
+            "title": "Comparison: Aerobic vs Anaerobic Respiration",
+            "columns": [
+              "Parameter",
+              "Aerobic Respiration",
+              "Anaerobic Respiration (Yeast / Muscle)"
+            ],
+            "rows": [
+              [
+                "Oxygen requirement",
+                "Requires molecular oxygen (O₂)",
+                "Occurs in absence / deficiency of oxygen"
+              ],
+              [
+                "Site of reaction",
+                "Cytoplasm + Mitochondria",
+                "Cytoplasm only"
+              ],
+              [
+                "End products",
+                "Carbon dioxide (CO₂) + Water (H₂O)",
+                "Ethanol + CO₂ (Yeast) or Lactic acid (Muscles)"
+              ],
+              [
+                "Energy yield",
+                "High yield (~38 ATP per glucose)",
+                "Low yield (2 ATP per glucose)"
+              ]
+            ]
+          }
+        ],
+        "equations": [
+          {
+            "id": "eq-aerobic-respiration",
+            "reactants": "C₆H₁₂O₆ + 6O₂",
+            "products": "6CO₂ + 6H₂O + 38 ATP",
+            "arrowText": "Mitochondria (Enzymes)",
+            "reactionType": "Aerobic Cellular Respiration",
+            "balanced": true,
+            "notes": "Complete oxidation of pyruvate into carbon dioxide and water inside the mitochondrial matrix."
+          },
+          {
+            "id": "eq-muscle-fatigue",
+            "reactants": "Pyruvate (3-Carbon)",
+            "products": "Lactic Acid (3-Carbon) + 2 ATP",
+            "arrowText": "Lack of O₂ (Human Muscle Cells)",
+            "reactionType": "Lactic Acid Fermentation",
+            "balanced": true,
+            "notes": "Accumulation of lactic acid in muscular tissue during intense physical exertion causes painful muscle cramps."
+          }
+        ],
+        "uncertainties": [
+          {
+            "id": "unc-respiration-1",
+            "originalText": "cytosol / cytoplazm",
+            "suspectedText": "Cytoplasm",
+            "sourcePage": 3,
+            "reason": "Handwriting abbreviation in margin regarding first stage of pyruvate formation.",
+            "resolved": true,
+            "resolvedText": "Cytoplasm (Glycolysis)",
+            "contextSnippet": "Breakdown of glucose into pyruvate occurs in [Cytoplasm]."
+          }
+        ],
+        "examTips": [
+          {
+            "id": "tip-aquatic-breathing",
+            "question": "Why is the rate of breathing in aquatic organisms much faster than in terrestrial organisms?",
+            "answerOutline": "The amount of dissolved oxygen in water is fairly low compared to the amount of oxygen in the atmosphere (~21%). Hence aquatic organisms must breathe at a faster rate to obtain sufficient oxygen.",
+            "yearAsked": "CBSE 2022, 2018"
+          }
+        ],
+        "keyTakeaways": [
+          "ATP releases ~30.5 kJ/mol when terminal phosphate bond is broken by water.",
+          "Alveoli in lungs provide an enormous surface area (~80 m²) richly supplied with capillary networks for rapid gas diffusion."
+        ]
+      },
+      {
+        "id": "sec-6-3",
+        "sectionNumber": "6.3",
+        "title": "Transportation in Human Beings (Heart & Blood)",
+        "summary": "Double circulation mechanism, myogenic cardiac chambers, and blood vessel specialisations.",
+        "sourceNotebookPages": [
+          4,
+          5
+        ],
+        "paragraphs": [
+          "The human heart is a muscular organ as big as a clenched fist. Because both oxygen and carbon dioxide have to be transported by the blood, the heart has four distinct chambers to prevent oxygenated blood from mixing with deoxygenated blood.",
+          "Double circulation consists of two separate circuits: the Pulmonary Circuit (heart to lungs and back) and the Systemic Circuit (heart to rest of the body and back). This separation provides a highly efficient supply of oxygen needed to maintain constant warm-blooded body temperature."
+        ],
+        "diagrams": [
+          {
+            "id": "diag-heart",
+            "title": "Schematic Section of Human Heart & Blood Flow",
+            "caption": "Right atrium receives deoxygenated blood from vena cava; right ventricle pumps it to lungs via pulmonary artery. Left atrium receives oxygenated blood from pulmonary veins; left ventricle pumps it to body via aorta.",
+            "diagramType": "anatomical",
+            "sourcePageRef": 4,
+            "svgPresetKey": "human_heart",
+            "searchQuery": "Human heart chambers valves circulation schematic",
+            "attribution": "CBSE Class 10 NCERT Standard Schematic",
+            "license": "Educational CC-BY-SA",
+            "labels": [
+              {
+                "name": "Right Atrium",
+                "description": "Receives deoxygenated blood from Vena Cava"
+              },
+              {
+                "name": "Right Ventricle",
+                "description": "Pumps deoxygenated blood to lungs via Pulmonary Artery"
+              },
+              {
+                "name": "Left Atrium",
+                "description": "Receives oxygenated blood from Pulmonary Vein"
+              },
+              {
+                "name": "Left Ventricle",
+                "description": "Thick muscular wall; pumps oxygenated blood into Aorta"
+              },
+              {
+                "name": "Septum",
+                "description": "Muscular dividing wall preventing mixing of blood"
+              }
+            ]
+          }
+        ],
+        "tables": [
+          {
+            "id": "tbl-arteries-veins",
+            "title": "Distinction: Arteries vs Veins vs Capillaries",
+            "columns": [
+              "Feature",
+              "Arteries",
+              "Veins",
+              "Capillaries"
+            ],
+            "rows": [
+              [
+                "Direction of Flow",
+                "Away from heart to body organs",
+                "Towards heart from body organs",
+                "Connect arterioles to venules"
+              ],
+              [
+                "Wall Thickness & Elasticity",
+                "Thick, elastic muscular walls",
+                "Thin, less muscular walls",
+                "Extremely thin (one-cell-thick endothelium)"
+              ],
+              [
+                "Internal Valves",
+                "Absent (blood flows under high pressure)",
+                "Present (prevent backflow of slow-moving blood)",
+                "Absent"
+              ],
+              [
+                "Blood Type Transported",
+                "Oxygenated (except Pulmonary Artery)",
+                "Deoxygenated (except Pulmonary Vein)",
+                "Site of nutrient and gas exchange"
+              ]
+            ]
+          }
+        ],
+        "uncertainties": [
+          {
+            "id": "unc-cardiac-1",
+            "originalText": "systolic / diostolic",
+            "suspectedText": "Systolic pressure (120 mm Hg) & Diastolic pressure (80 mm Hg)",
+            "sourcePage": 5,
+            "reason": "Smudged pen numbers in student margin note next to sphygmomanometer.",
+            "resolved": false,
+            "contextSnippet": "Normal blood pressure is [120/80 mm of Hg]."
+          }
+        ],
+        "examTips": [
+          {
+            "id": "tip-double-circ",
+            "question": "Why is double circulation necessary in birds and mammals?",
+            "answerOutline": "Warm-blooded animals (birds and mammals) constantly use energy to regulate their body temperature. Complete separation of oxygenated and deoxygenated blood provides the high metabolic efficiency needed.",
+            "yearAsked": "CBSE High Frequency (2023, 2021, 2017)"
+          }
+        ],
+        "keyTakeaways": [
+          "Ventricles have much thicker muscular walls than atria because they have to pump blood out into various organs under high hydrostatic pressure.",
+          "Platelets circulate in blood and form clots at injury sites to prevent haemorrhage."
+        ]
+      },
+      {
+        "id": "sec-6-4",
+        "sectionNumber": "6.4",
+        "title": "Excretion in Human Beings (Nephron & Kidneys)",
+        "summary": "Ultrafiltration, selective reabsorption, and tubular secretion in the nephron functional unit.",
+        "sourceNotebookPages": [
+          6,
+          7
+        ],
+        "paragraphs": [
+          "Excretion is the biological process by which harmful metabolic waste products (principally nitrogenous wastes like urea and uric acid produced in the liver) are eliminated from the body.",
+          "Each kidney contains approximately 1 to 1.2 million microscopic filtering units called Nephrons. Each nephron consists of a cup-shaped Bowman’s Capsule enclosing a tuft of capillaries called the Glomerulus, followed by a long coiled renal tubule (Proximal Convoluted Tubule, Henle’s Loop, Distal Convoluted Tubule, and Collecting Duct).",
+          "The initial glomerular filtrate (~180 litres per day in an adult) is largely reabsorbed along the tubular portion; only 1 to 2 litres is excreted daily as concentrated urine."
+        ],
+        "definitions": [
+          {
+            "id": "def-nephron",
+            "term": "Nephron",
+            "definition": "The fundamental structural and functional filtration unit of the kidney that purifies blood, reabsorbs vital solutes, and concentrates urine.",
+            "keyPoints": [
+              "Composed of Bowman’s capsule, glomerulus, Henle’s loop, collecting duct",
+              "~1 million per kidney"
+            ],
+            "cbseFrequency": "Very High",
+            "sourcePageRef": 6
+          },
+          {
+            "id": "def-hemodialysis",
+            "term": "Haemodialysis (Artificial Kidney)",
+            "definition": "A clinical procedure for removing nitrogenous waste products from the blood of a patient suffering from renal failure using semi-permeable dialysing tubes immersed in dialysing fluid.",
+            "keyPoints": [
+              "Dialysing fluid has same osmotic pressure as blood but lacks nitrogenous waste",
+              "No reabsorption occurs during dialysis"
+            ],
+            "cbseFrequency": "Medium",
+            "sourcePageRef": 7
+          }
+        ],
+        "diagrams": [
+          {
+            "id": "diag-nephron",
+            "title": "Structure of a Nephron (Renal Filtration Unit)",
+            "caption": "Ultrafiltration occurs in Bowman’s capsule under high pressure. Useful substances (glucose, amino acids, salts, water) are selectively reabsorbed in the coiled tubule.",
+            "diagramType": "schematic",
+            "sourcePageRef": 6,
+            "svgPresetKey": "nephron",
+            "searchQuery": "Nephron structure Bowman capsule loop of Henle diagram",
+            "attribution": "CBSE Standard Anatomical Schematic",
+            "license": "Open Access Educational Asset",
+            "labels": [
+              {
+                "name": "Bowman’s Capsule",
+                "description": "Double-walled cup holding the glomerulus"
+              },
+              {
+                "name": "Glomerulus",
+                "description": "Capillary knot where ultrafiltration occurs under high pressure"
+              },
+              {
+                "name": "Henle’s Loop",
+                "description": "Hairpin loop reabsorbing water and sodium ions"
+              },
+              {
+                "name": "Collecting Duct",
+                "description": "Collects concentrated urine from multiple nephrons into ureter"
+              }
+            ]
+          }
+        ],
+        "examTips": [
+          {
+            "id": "tip-selective-reabsorption",
+            "question": "Name four substances selectively reabsorbed from the initial filtrate as it passes through the nephron tubule.",
+            "answerOutline": "1. Glucose, 2. Amino acids, 3. Salts (NaCl), 4. Major amount of water (regulated by antidiuretic hormone and hydration state).",
+            "yearAsked": "CBSE 2023, 2020 Board Exam"
+          }
+        ],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Ultrafiltration occurs because afferent arteriole is wider in diameter than the efferent arteriole, generating high hydrostatic pressure in glomerulus.",
+          "Plants excrete wastes differently: gaseous waste (O₂ and CO₂) via stomata, excess water via transpiration, dead cells shed via falling leaves, and resins/gums stored in old xylem."
+        ]
+      }
+    ],
+    "revisionChecklist": [
+      "Write the balanced chemical equation for photosynthesis and name the 3 key energy transformation events.",
+      "Differentiate between aerobic and anaerobic respiration in terms of site, ATP yield, and end products.",
+      "Trace the path of a blood droplet from the vena cava through the heart chambers to the systemic aorta.",
+      "Explain the three stages of urine formation: Ultrafiltration, Selective Reabsorption, and Tubular Secretion."
+    ]
+  },
+  {
+    "id": "ch06-control-and-coordination",
+    "subject": "Biology",
+    "classGrade": "CBSE Class 10",
+    "chapterNumber": 6,
+    "title": "Control and Coordination",
+    "subtitle": "Nervous System, Reflex Arcs & Phytohormones",
+    "status": "draft",
+    "version": 1,
+    "lastUpdated": "2026-10-18T18:29:36.962Z",
+    "estimatedReadTime": "Pending Notes Transcription",
+    "sourceInfo": {
+      "notebookTitle": "Pending Notebook Notes (Ch 6)",
+      "notebookPages": [],
+      "author": "Pending Upload / Dev Conversation Sync",
+      "transcribedAt": "Pending",
+      "transcriptionModel": "Gemini Multimodal (gemini-2.5-flash)",
+      "confidenceScore": 0,
+      "flaggedUncertaintiesCount": 0
+    },
+    "summary": "Awaiting handwritten notes for Chapter 6: Control and Coordination. Covers NCERT syllabus: World of Living. Ready to transcribe when photos/PDFs are provided.",
+    "tableOfContents": [
+      {
+        "sectionId": "sec-6-1",
+        "sectionNumber": "6.1",
+        "title": "Structure of a Neuron & Synapse"
+      },
+      {
+        "sectionId": "sec-6-2",
+        "sectionNumber": "6.2",
+        "title": "Reflex Arc pathway"
+      },
+      {
+        "sectionId": "sec-6-3",
+        "sectionNumber": "6.3",
+        "title": "Human Brain (Forebrain, Midbrain, Hindbrain)"
+      },
+      {
+        "sectionId": "sec-6-4",
+        "sectionNumber": "6.4",
+        "title": "Plant hormones (Auxin, Gibberellin, Cytokinin, ABA) and Tropic movements"
+      },
+      {
+        "sectionId": "sec-6-5",
+        "sectionNumber": "6.5",
+        "title": "Endocrine Glands (Thyroid, Pituitary, Adrenal, Pancreas)"
+      }
+    ],
+    "sections": [
+      {
+        "id": "sec-6-1",
+        "sectionNumber": "6.1",
+        "title": "Structure of a Neuron & Synapse",
+        "summary": "Placeholder section for Structure of a Neuron & Synapse.",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-6-1",
+            "title": "Structure of Neuron",
+            "caption": "Recommended NCERT scientific illustration for Structure of a Neuron & Synapse.",
+            "diagramType": "schematic",
+            "searchQuery": "Structure of a Neuron & Synapse Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Structure of a Neuron & Synapse",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      },
+      {
+        "id": "sec-6-2",
+        "sectionNumber": "6.2",
+        "title": "Reflex Arc pathway",
+        "summary": "Placeholder section for Reflex Arc pathway.",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-6-2",
+            "title": "Reflex Arc Diagram",
+            "caption": "Recommended NCERT scientific illustration for Reflex Arc pathway.",
+            "diagramType": "schematic",
+            "searchQuery": "Reflex Arc pathway Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Reflex Arc pathway",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      },
+      {
+        "id": "sec-6-3",
+        "sectionNumber": "6.3",
+        "title": "Human Brain (Forebrain, Midbrain, Hindbrain)",
+        "summary": "Placeholder section for Human Brain (Forebrain, Midbrain, Hindbrain).",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-6-3",
+            "title": "Human Brain Sagittal Section",
+            "caption": "Recommended NCERT scientific illustration for Human Brain (Forebrain, Midbrain, Hindbrain).",
+            "diagramType": "schematic",
+            "searchQuery": "Human Brain (Forebrain, Midbrain, Hindbrain) Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Human Brain (Forebrain, Midbrain, Hindbrain)",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      },
+      {
+        "id": "sec-6-4",
+        "sectionNumber": "6.4",
+        "title": "Plant hormones (Auxin, Gibberellin, Cytokinin, ABA) and Tropic movements",
+        "summary": "Placeholder section for Plant hormones (Auxin, Gibberellin, Cytokinin, ABA) and Tropic movements.",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-6-4",
+            "title": "Endocrine Glands in Human",
+            "caption": "Recommended NCERT scientific illustration for Plant hormones (Auxin, Gibberellin, Cytokinin, ABA) and Tropic movements.",
+            "diagramType": "schematic",
+            "searchQuery": "Plant hormones (Auxin, Gibberellin, Cytokinin, ABA) and Tropic movements Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Plant hormones (Auxin, Gibberellin, Cytokinin, ABA) and Tropic movements",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      },
+      {
+        "id": "sec-6-5",
+        "sectionNumber": "6.5",
+        "title": "Endocrine Glands (Thyroid, Pituitary, Adrenal, Pancreas)",
+        "summary": "Placeholder section for Endocrine Glands (Thyroid, Pituitary, Adrenal, Pancreas).",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-6-5",
+            "title": "Structure of Neuron",
+            "caption": "Recommended NCERT scientific illustration for Endocrine Glands (Thyroid, Pituitary, Adrenal, Pancreas).",
+            "diagramType": "schematic",
+            "searchQuery": "Endocrine Glands (Thyroid, Pituitary, Adrenal, Pancreas) Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Endocrine Glands (Thyroid, Pituitary, Adrenal, Pancreas)",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      }
+    ],
+    "revisionChecklist": [
+      "Master core definitions and diagrams for Structure of a Neuron & Synapse.",
+      "Master core definitions and diagrams for Reflex Arc pathway.",
+      "Master core definitions and diagrams for Human Brain (Forebrain, Midbrain, Hindbrain).",
+      "Master core definitions and diagrams for Plant hormones (Auxin, Gibberellin, Cytokinin, ABA) and Tropic movements.",
+      "Master core definitions and diagrams for Endocrine Glands (Thyroid, Pituitary, Adrenal, Pancreas)."
+    ]
+  },
+  {
+    "id": "ch07-how-do-organisms-reproduce-",
+    "subject": "Biology",
+    "classGrade": "CBSE Class 10",
+    "chapterNumber": 7,
+    "title": "How do Organisms Reproduce?",
+    "subtitle": "Asexual & Sexual Modes, Floral Anatomy & Human Reproduction",
+    "status": "draft",
+    "version": 1,
+    "lastUpdated": "2026-10-18T18:29:36.962Z",
+    "estimatedReadTime": "Pending Notes Transcription",
+    "sourceInfo": {
+      "notebookTitle": "Pending Notebook Notes (Ch 7)",
+      "notebookPages": [],
+      "author": "Pending Upload / Dev Conversation Sync",
+      "transcribedAt": "Pending",
+      "transcriptionModel": "Gemini Multimodal (gemini-2.5-flash)",
+      "confidenceScore": 0,
+      "flaggedUncertaintiesCount": 0
+    },
+    "summary": "Awaiting handwritten notes for Chapter 7: How do Organisms Reproduce?. Covers NCERT syllabus: World of Living. Ready to transcribe when photos/PDFs are provided.",
+    "tableOfContents": [
+      {
+        "sectionId": "sec-7-1",
+        "sectionNumber": "7.1",
+        "title": "Asexual reproduction (Fission, Budding, Regeneration, Spores, Vegetative propagation)"
+      },
+      {
+        "sectionId": "sec-7-2",
+        "sectionNumber": "7.2",
+        "title": "Sexual reproduction in flowering plants (Pollination & Fertilisation)"
+      },
+      {
+        "sectionId": "sec-7-3",
+        "sectionNumber": "7.3",
+        "title": "Male & Female reproductive systems"
+      },
+      {
+        "sectionId": "sec-7-4",
+        "sectionNumber": "7.4",
+        "title": "Contraceptive methods and Reproductive Health"
+      }
+    ],
+    "sections": [
+      {
+        "id": "sec-7-1",
+        "sectionNumber": "7.1",
+        "title": "Asexual reproduction (Fission, Budding, Regeneration, Spores, Vegetative propagation)",
+        "summary": "Placeholder section for Asexual reproduction (Fission, Budding, Regeneration, Spores, Vegetative propagation).",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-7-1",
+            "title": "Longitudinal Section of a Flower",
+            "caption": "Recommended NCERT scientific illustration for Asexual reproduction (Fission, Budding, Regeneration, Spores, Vegetative propagation).",
+            "diagramType": "schematic",
+            "searchQuery": "Asexual reproduction (Fission, Budding, Regeneration, Spores, Vegetative propagation) Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Asexual reproduction (Fission, Budding, Regeneration, Spores, Vegetative propagation)",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      },
+      {
+        "id": "sec-7-2",
+        "sectionNumber": "7.2",
+        "title": "Sexual reproduction in flowering plants (Pollination & Fertilisation)",
+        "summary": "Placeholder section for Sexual reproduction in flowering plants (Pollination & Fertilisation).",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-7-2",
+            "title": "Germination of Pollen on Stigma",
+            "caption": "Recommended NCERT scientific illustration for Sexual reproduction in flowering plants (Pollination & Fertilisation).",
+            "diagramType": "schematic",
+            "searchQuery": "Sexual reproduction in flowering plants (Pollination & Fertilisation) Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Sexual reproduction in flowering plants (Pollination & Fertilisation)",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      },
+      {
+        "id": "sec-7-3",
+        "sectionNumber": "7.3",
+        "title": "Male & Female reproductive systems",
+        "summary": "Placeholder section for Male & Female reproductive systems.",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-7-3",
+            "title": "Male Reproductive System",
+            "caption": "Recommended NCERT scientific illustration for Male & Female reproductive systems.",
+            "diagramType": "schematic",
+            "searchQuery": "Male & Female reproductive systems Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Male & Female reproductive systems",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      },
+      {
+        "id": "sec-7-4",
+        "sectionNumber": "7.4",
+        "title": "Contraceptive methods and Reproductive Health",
+        "summary": "Placeholder section for Contraceptive methods and Reproductive Health.",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-7-4",
+            "title": "Female Reproductive System",
+            "caption": "Recommended NCERT scientific illustration for Contraceptive methods and Reproductive Health.",
+            "diagramType": "schematic",
+            "searchQuery": "Contraceptive methods and Reproductive Health Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Contraceptive methods and Reproductive Health",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      }
+    ],
+    "revisionChecklist": [
+      "Master core definitions and diagrams for Asexual reproduction (Fission, Budding, Regeneration, Spores, Vegetative propagation).",
+      "Master core definitions and diagrams for Sexual reproduction in flowering plants (Pollination & Fertilisation).",
+      "Master core definitions and diagrams for Male & Female reproductive systems.",
+      "Master core definitions and diagrams for Contraceptive methods and Reproductive Health."
+    ]
+  },
+  {
+    "id": "ch08-heredity-and-evolution",
+    "subject": "Biology",
+    "classGrade": "CBSE Class 10",
+    "chapterNumber": 8,
+    "title": "Heredity and Evolution",
+    "subtitle": "Mendelian Genetics, Monohybrid Cross & Sex Determination",
+    "status": "draft",
+    "version": 1,
+    "lastUpdated": "2026-10-18T18:29:36.962Z",
+    "estimatedReadTime": "Pending Notes Transcription",
+    "sourceInfo": {
+      "notebookTitle": "Pending Notebook Notes (Ch 8)",
+      "notebookPages": [],
+      "author": "Pending Upload / Dev Conversation Sync",
+      "transcribedAt": "Pending",
+      "transcriptionModel": "Gemini Multimodal (gemini-2.5-flash)",
+      "confidenceScore": 0,
+      "flaggedUncertaintiesCount": 0
+    },
+    "summary": "Awaiting handwritten notes for Chapter 8: Heredity and Evolution. Covers NCERT syllabus: World of Living. Ready to transcribe when photos/PDFs are provided.",
+    "tableOfContents": [
+      {
+        "sectionId": "sec-8-1",
+        "sectionNumber": "8.1",
+        "title": "Inheritance of traits & Mendel experiments"
+      },
+      {
+        "sectionId": "sec-8-2",
+        "sectionNumber": "8.2",
+        "title": "Monohybrid and Dihybrid crosses (3:1 and 9:3:3:1 ratios)"
+      },
+      {
+        "sectionId": "sec-8-3",
+        "sectionNumber": "8.3",
+        "title": "Sex determination in human beings (XX and XY chromosomes)"
+      }
+    ],
+    "sections": [
+      {
+        "id": "sec-8-1",
+        "sectionNumber": "8.1",
+        "title": "Inheritance of traits & Mendel experiments",
+        "summary": "Placeholder section for Inheritance of traits & Mendel experiments.",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-8-1",
+            "title": "Mendel Monohybrid Cross Punnett Square",
+            "caption": "Recommended NCERT scientific illustration for Inheritance of traits & Mendel experiments.",
+            "diagramType": "schematic",
+            "searchQuery": "Inheritance of traits & Mendel experiments Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Inheritance of traits & Mendel experiments",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      },
+      {
+        "id": "sec-8-2",
+        "sectionNumber": "8.2",
+        "title": "Monohybrid and Dihybrid crosses (3:1 and 9:3:3:1 ratios)",
+        "summary": "Placeholder section for Monohybrid and Dihybrid crosses (3:1 and 9:3:3:1 ratios).",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-8-2",
+            "title": "Sex Determination in Human Beings Flowchart",
+            "caption": "Recommended NCERT scientific illustration for Monohybrid and Dihybrid crosses (3:1 and 9:3:3:1 ratios).",
+            "diagramType": "schematic",
+            "searchQuery": "Monohybrid and Dihybrid crosses (3:1 and 9:3:3:1 ratios) Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Monohybrid and Dihybrid crosses (3:1 and 9:3:3:1 ratios)",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      },
+      {
+        "id": "sec-8-3",
+        "sectionNumber": "8.3",
+        "title": "Sex determination in human beings (XX and XY chromosomes)",
+        "summary": "Placeholder section for Sex determination in human beings (XX and XY chromosomes).",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-8-3",
+            "title": "Mendel Monohybrid Cross Punnett Square",
+            "caption": "Recommended NCERT scientific illustration for Sex determination in human beings (XX and XY chromosomes).",
+            "diagramType": "schematic",
+            "searchQuery": "Sex determination in human beings (XX and XY chromosomes) Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Sex determination in human beings (XX and XY chromosomes)",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      }
+    ],
+    "revisionChecklist": [
+      "Master core definitions and diagrams for Inheritance of traits & Mendel experiments.",
+      "Master core definitions and diagrams for Monohybrid and Dihybrid crosses (3:1 and 9:3:3:1 ratios).",
+      "Master core definitions and diagrams for Sex determination in human beings (XX and XY chromosomes)."
+    ]
+  },
+  {
+    "id": "ch09-light-reflection-and-refraction",
+    "subject": "Physics",
+    "classGrade": "CBSE Class 10",
+    "chapterNumber": 9,
+    "title": "Light – Reflection and Refraction",
+    "subtitle": "Spherical Mirrors, Lenses, Ray Diagrams & Snell Law",
+    "status": "draft",
+    "version": 1,
+    "lastUpdated": "2026-10-18T18:29:36.963Z",
+    "estimatedReadTime": "Pending Notes Transcription",
+    "sourceInfo": {
+      "notebookTitle": "Pending Notebook Notes (Ch 9)",
+      "notebookPages": [],
+      "author": "Pending Upload / Dev Conversation Sync",
+      "transcribedAt": "Pending",
+      "transcriptionModel": "Gemini Multimodal (gemini-2.5-flash)",
+      "confidenceScore": 0,
+      "flaggedUncertaintiesCount": 0
+    },
+    "summary": "Awaiting handwritten notes for Chapter 9: Light – Reflection and Refraction. Covers NCERT syllabus: Natural Phenomena. Ready to transcribe when photos/PDFs are provided.",
+    "tableOfContents": [
+      {
+        "sectionId": "sec-9-1",
+        "sectionNumber": "9.1",
+        "title": "Laws of reflection & spherical mirrors (Concave/Convex)"
+      },
+      {
+        "sectionId": "sec-9-2",
+        "sectionNumber": "9.2",
+        "title": "Mirror formula & linear magnification"
+      },
+      {
+        "sectionId": "sec-9-3",
+        "sectionNumber": "9.3",
+        "title": "Laws of refraction & Snell law"
+      },
+      {
+        "sectionId": "sec-9-4",
+        "sectionNumber": "9.4",
+        "title": "Lens formula, power of a lens (Dioptres)"
+      }
+    ],
+    "sections": [
+      {
+        "id": "sec-9-1",
+        "sectionNumber": "9.1",
+        "title": "Laws of reflection & spherical mirrors (Concave/Convex)",
+        "summary": "Placeholder section for Laws of reflection & spherical mirrors (Concave/Convex).",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-9-1",
+            "title": "Ray Diagrams for Concave Mirror (6 Cases)",
+            "caption": "Recommended NCERT scientific illustration for Laws of reflection & spherical mirrors (Concave/Convex).",
+            "diagramType": "schematic",
+            "searchQuery": "Laws of reflection & spherical mirrors (Concave/Convex) Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Laws of reflection & spherical mirrors (Concave/Convex)",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      },
+      {
+        "id": "sec-9-2",
+        "sectionNumber": "9.2",
+        "title": "Mirror formula & linear magnification",
+        "summary": "Placeholder section for Mirror formula & linear magnification.",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-9-2",
+            "title": "Refraction through a Rectangular Glass Slab",
+            "caption": "Recommended NCERT scientific illustration for Mirror formula & linear magnification.",
+            "diagramType": "schematic",
+            "searchQuery": "Mirror formula & linear magnification Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Mirror formula & linear magnification",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      },
+      {
+        "id": "sec-9-3",
+        "sectionNumber": "9.3",
+        "title": "Laws of refraction & Snell law",
+        "summary": "Placeholder section for Laws of refraction & Snell law.",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-9-3",
+            "title": "Convex Lens Image Formations",
+            "caption": "Recommended NCERT scientific illustration for Laws of refraction & Snell law.",
+            "diagramType": "schematic",
+            "searchQuery": "Laws of refraction & Snell law Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Laws of refraction & Snell law",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      },
+      {
+        "id": "sec-9-4",
+        "sectionNumber": "9.4",
+        "title": "Lens formula, power of a lens (Dioptres)",
+        "summary": "Placeholder section for Lens formula, power of a lens (Dioptres).",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-9-4",
+            "title": "Ray Diagrams for Concave Mirror (6 Cases)",
+            "caption": "Recommended NCERT scientific illustration for Lens formula, power of a lens (Dioptres).",
+            "diagramType": "schematic",
+            "searchQuery": "Lens formula, power of a lens (Dioptres) Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Lens formula, power of a lens (Dioptres)",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      }
+    ],
+    "revisionChecklist": [
+      "Master core definitions and diagrams for Laws of reflection & spherical mirrors (Concave/Convex).",
+      "Master core definitions and diagrams for Mirror formula & linear magnification.",
+      "Master core definitions and diagrams for Laws of refraction & Snell law.",
+      "Master core definitions and diagrams for Lens formula, power of a lens (Dioptres)."
+    ]
+  },
+  {
+    "id": "ch10-the-human-eye-and-the-colourful-world",
+    "subject": "Physics",
+    "classGrade": "CBSE Class 10",
+    "chapterNumber": 10,
+    "title": "The Human Eye and the Colourful World",
+    "subtitle": "Eye Defects, Atmospheric Refraction & Dispersion",
+    "status": "draft",
+    "version": 1,
+    "lastUpdated": "2026-10-18T18:29:36.963Z",
+    "estimatedReadTime": "Pending Notes Transcription",
+    "sourceInfo": {
+      "notebookTitle": "Pending Notebook Notes (Ch 10)",
+      "notebookPages": [],
+      "author": "Pending Upload / Dev Conversation Sync",
+      "transcribedAt": "Pending",
+      "transcriptionModel": "Gemini Multimodal (gemini-2.5-flash)",
+      "confidenceScore": 0,
+      "flaggedUncertaintiesCount": 0
+    },
+    "summary": "Awaiting handwritten notes for Chapter 10: The Human Eye and the Colourful World. Covers NCERT syllabus: Natural Phenomena. Ready to transcribe when photos/PDFs are provided.",
+    "tableOfContents": [
+      {
+        "sectionId": "sec-10-1",
+        "sectionNumber": "10.1",
+        "title": "Structure of Human Eye & Accommodation"
+      },
+      {
+        "sectionId": "sec-10-2",
+        "sectionNumber": "10.2",
+        "title": "Defects of vision: Myopia, Hypermetropia, Presbyopia and their corrections"
+      },
+      {
+        "sectionId": "sec-10-3",
+        "sectionNumber": "10.3",
+        "title": "Dispersion of white light through a glass prism & Rainbow formation"
+      },
+      {
+        "sectionId": "sec-10-4",
+        "sectionNumber": "10.4",
+        "title": "Atmospheric refraction (Twinkling of stars, Advanced sunrise/delayed sunset)"
+      },
+      {
+        "sectionId": "sec-10-5",
+        "sectionNumber": "10.5",
+        "title": "Tyndall effect & Scattering of light (Blue sky, Red sunrise)"
+      }
+    ],
+    "sections": [
+      {
+        "id": "sec-10-1",
+        "sectionNumber": "10.1",
+        "title": "Structure of Human Eye & Accommodation",
+        "summary": "Placeholder section for Structure of Human Eye & Accommodation.",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-10-1",
+            "title": "Structure of Human Eye",
+            "caption": "Recommended NCERT scientific illustration for Structure of Human Eye & Accommodation.",
+            "diagramType": "schematic",
+            "searchQuery": "Structure of Human Eye & Accommodation Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Structure of Human Eye & Accommodation",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      },
+      {
+        "id": "sec-10-2",
+        "sectionNumber": "10.2",
+        "title": "Defects of vision: Myopia, Hypermetropia, Presbyopia and their corrections",
+        "summary": "Placeholder section for Defects of vision: Myopia, Hypermetropia, Presbyopia and their corrections.",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-10-2",
+            "title": "Correction of Myopia and Hypermetropia with Lenses",
+            "caption": "Recommended NCERT scientific illustration for Defects of vision: Myopia, Hypermetropia, Presbyopia and their corrections.",
+            "diagramType": "schematic",
+            "searchQuery": "Defects of vision: Myopia, Hypermetropia, Presbyopia and their corrections Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Defects of vision: Myopia, Hypermetropia, Presbyopia and their corrections",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      },
+      {
+        "id": "sec-10-3",
+        "sectionNumber": "10.3",
+        "title": "Dispersion of white light through a glass prism & Rainbow formation",
+        "summary": "Placeholder section for Dispersion of white light through a glass prism & Rainbow formation.",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-10-3",
+            "title": "Dispersion of Light by Glass Prism",
+            "caption": "Recommended NCERT scientific illustration for Dispersion of white light through a glass prism & Rainbow formation.",
+            "diagramType": "schematic",
+            "searchQuery": "Dispersion of white light through a glass prism & Rainbow formation Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Dispersion of white light through a glass prism & Rainbow formation",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      },
+      {
+        "id": "sec-10-4",
+        "sectionNumber": "10.4",
+        "title": "Atmospheric refraction (Twinkling of stars, Advanced sunrise/delayed sunset)",
+        "summary": "Placeholder section for Atmospheric refraction (Twinkling of stars, Advanced sunrise/delayed sunset).",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-10-4",
+            "title": "Recombination of Spectrum (Newton Double Prism)",
+            "caption": "Recommended NCERT scientific illustration for Atmospheric refraction (Twinkling of stars, Advanced sunrise/delayed sunset).",
+            "diagramType": "schematic",
+            "searchQuery": "Atmospheric refraction (Twinkling of stars, Advanced sunrise/delayed sunset) Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Atmospheric refraction (Twinkling of stars, Advanced sunrise/delayed sunset)",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      },
+      {
+        "id": "sec-10-5",
+        "sectionNumber": "10.5",
+        "title": "Tyndall effect & Scattering of light (Blue sky, Red sunrise)",
+        "summary": "Placeholder section for Tyndall effect & Scattering of light (Blue sky, Red sunrise).",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-10-5",
+            "title": "Structure of Human Eye",
+            "caption": "Recommended NCERT scientific illustration for Tyndall effect & Scattering of light (Blue sky, Red sunrise).",
+            "diagramType": "schematic",
+            "searchQuery": "Tyndall effect & Scattering of light (Blue sky, Red sunrise) Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Tyndall effect & Scattering of light (Blue sky, Red sunrise)",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      }
+    ],
+    "revisionChecklist": [
+      "Master core definitions and diagrams for Structure of Human Eye & Accommodation.",
+      "Master core definitions and diagrams for Defects of vision: Myopia, Hypermetropia, Presbyopia and their corrections.",
+      "Master core definitions and diagrams for Dispersion of white light through a glass prism & Rainbow formation.",
+      "Master core definitions and diagrams for Atmospheric refraction (Twinkling of stars, Advanced sunrise/delayed sunset).",
+      "Master core definitions and diagrams for Tyndall effect & Scattering of light (Blue sky, Red sunrise)."
+    ]
+  },
+  {
+    "id": "ch11-electricity",
+    "subject": "Physics",
+    "classGrade": "CBSE Class 10",
+    "chapterNumber": 11,
+    "title": "Electricity",
+    "subtitle": "Ohm’s Law, Resistance, Resistors in Series/Parallel & Joule Heating",
+    "status": "draft",
+    "version": 1,
+    "lastUpdated": "2026-10-18T18:29:36.963Z",
+    "estimatedReadTime": "Pending Notes Transcription",
+    "sourceInfo": {
+      "notebookTitle": "Pending Notebook Notes (Ch 11)",
+      "notebookPages": [],
+      "author": "Pending Upload / Dev Conversation Sync",
+      "transcribedAt": "Pending",
+      "transcriptionModel": "Gemini Multimodal (gemini-2.5-flash)",
+      "confidenceScore": 0,
+      "flaggedUncertaintiesCount": 0
+    },
+    "summary": "Awaiting handwritten notes for Chapter 11: Electricity. Covers NCERT syllabus: Effects of Current. Ready to transcribe when photos/PDFs are provided.",
+    "tableOfContents": [
+      {
+        "sectionId": "sec-11-1",
+        "sectionNumber": "11.1",
+        "title": "Electric current, potential difference & Voltmeter/Ammeter connections"
+      },
+      {
+        "sectionId": "sec-11-2",
+        "sectionNumber": "11.2",
+        "title": "Ohm’s Law (V = IR) and Factors affecting resistance (Resistivity ρ)"
+      },
+      {
+        "sectionId": "sec-11-3",
+        "sectionNumber": "11.3",
+        "title": "Resistors in Series (R = R1+R2+R3) and Parallel (1/R = 1/R1+1/R2)"
+      },
+      {
+        "sectionId": "sec-11-4",
+        "sectionNumber": "11.4",
+        "title": "Joule’s Law of Heating (H = I²Rt) and Electric Power (P = VI = I²R)"
+      }
+    ],
+    "sections": [
+      {
+        "id": "sec-11-1",
+        "sectionNumber": "11.1",
+        "title": "Electric current, potential difference & Voltmeter/Ammeter connections",
+        "summary": "Placeholder section for Electric current, potential difference & Voltmeter/Ammeter connections.",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-11-1",
+            "title": "Ohm’s Law Experimental Verification Circuit",
+            "caption": "Recommended NCERT scientific illustration for Electric current, potential difference & Voltmeter/Ammeter connections.",
+            "diagramType": "schematic",
+            "searchQuery": "Electric current, potential difference & Voltmeter/Ammeter connections Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Electric current, potential difference & Voltmeter/Ammeter connections",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      },
+      {
+        "id": "sec-11-2",
+        "sectionNumber": "11.2",
+        "title": "Ohm’s Law (V = IR) and Factors affecting resistance (Resistivity ρ)",
+        "summary": "Placeholder section for Ohm’s Law (V = IR) and Factors affecting resistance (Resistivity ρ).",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-11-2",
+            "title": "Resistors Connected in Series Circuit",
+            "caption": "Recommended NCERT scientific illustration for Ohm’s Law (V = IR) and Factors affecting resistance (Resistivity ρ).",
+            "diagramType": "schematic",
+            "searchQuery": "Ohm’s Law (V = IR) and Factors affecting resistance (Resistivity ρ) Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Ohm’s Law (V = IR) and Factors affecting resistance (Resistivity ρ)",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      },
+      {
+        "id": "sec-11-3",
+        "sectionNumber": "11.3",
+        "title": "Resistors in Series (R = R1+R2+R3) and Parallel (1/R = 1/R1+1/R2)",
+        "summary": "Placeholder section for Resistors in Series (R = R1+R2+R3) and Parallel (1/R = 1/R1+1/R2).",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-11-3",
+            "title": "Resistors Connected in Parallel Circuit",
+            "caption": "Recommended NCERT scientific illustration for Resistors in Series (R = R1+R2+R3) and Parallel (1/R = 1/R1+1/R2).",
+            "diagramType": "schematic",
+            "searchQuery": "Resistors in Series (R = R1+R2+R3) and Parallel (1/R = 1/R1+1/R2) Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Resistors in Series (R = R1+R2+R3) and Parallel (1/R = 1/R1+1/R2)",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      },
+      {
+        "id": "sec-11-4",
+        "sectionNumber": "11.4",
+        "title": "Joule’s Law of Heating (H = I²Rt) and Electric Power (P = VI = I²R)",
+        "summary": "Placeholder section for Joule’s Law of Heating (H = I²Rt) and Electric Power (P = VI = I²R).",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-11-4",
+            "title": "Ohm’s Law Experimental Verification Circuit",
+            "caption": "Recommended NCERT scientific illustration for Joule’s Law of Heating (H = I²Rt) and Electric Power (P = VI = I²R).",
+            "diagramType": "schematic",
+            "searchQuery": "Joule’s Law of Heating (H = I²Rt) and Electric Power (P = VI = I²R) Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Joule’s Law of Heating (H = I²Rt) and Electric Power (P = VI = I²R)",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      }
+    ],
+    "revisionChecklist": [
+      "Master core definitions and diagrams for Electric current, potential difference & Voltmeter/Ammeter connections.",
+      "Master core definitions and diagrams for Ohm’s Law (V = IR) and Factors affecting resistance (Resistivity ρ).",
+      "Master core definitions and diagrams for Resistors in Series (R = R1+R2+R3) and Parallel (1/R = 1/R1+1/R2).",
+      "Master core definitions and diagrams for Joule’s Law of Heating (H = I²Rt) and Electric Power (P = VI = I²R)."
+    ]
+  },
+  {
+    "id": "ch12-magnetic-effects-of-electric-current",
+    "subject": "Physics",
+    "classGrade": "CBSE Class 10",
+    "chapterNumber": 12,
+    "title": "Magnetic Effects of Electric Current",
+    "subtitle": "Magnetic Fields, Fleming Rules & Domestic Circuits",
+    "status": "draft",
+    "version": 1,
+    "lastUpdated": "2026-10-18T18:29:36.963Z",
+    "estimatedReadTime": "Pending Notes Transcription",
+    "sourceInfo": {
+      "notebookTitle": "Pending Notebook Notes (Ch 12)",
+      "notebookPages": [],
+      "author": "Pending Upload / Dev Conversation Sync",
+      "transcribedAt": "Pending",
+      "transcriptionModel": "Gemini Multimodal (gemini-2.5-flash)",
+      "confidenceScore": 0,
+      "flaggedUncertaintiesCount": 0
+    },
+    "summary": "Awaiting handwritten notes for Chapter 12: Magnetic Effects of Electric Current. Covers NCERT syllabus: Effects of Current. Ready to transcribe when photos/PDFs are provided.",
+    "tableOfContents": [
+      {
+        "sectionId": "sec-12-1",
+        "sectionNumber": "12.1",
+        "title": "Magnetic field lines and their properties"
+      },
+      {
+        "sectionId": "sec-12-2",
+        "sectionNumber": "12.2",
+        "title": "Field due to a current-carrying straight conductor (Right-Hand Thumb Rule)"
+      },
+      {
+        "sectionId": "sec-12-3",
+        "sectionNumber": "12.3",
+        "title": "Field due to a circular loop and Solenoid (Electromagnet)"
+      },
+      {
+        "sectionId": "sec-12-4",
+        "sectionNumber": "12.4",
+        "title": "Force on a current-carrying conductor in a magnetic field & Fleming’s Left-Hand Rule"
+      },
+      {
+        "sectionId": "sec-12-5",
+        "sectionNumber": "12.5",
+        "title": "Domestic electric circuits (Live, Neutral, Earth wire, Fuse and Earthing)"
+      }
+    ],
+    "sections": [
+      {
+        "id": "sec-12-1",
+        "sectionNumber": "12.1",
+        "title": "Magnetic field lines and their properties",
+        "summary": "Placeholder section for Magnetic field lines and their properties.",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-12-1",
+            "title": "Magnetic Field Lines around a Bar Magnet",
+            "caption": "Recommended NCERT scientific illustration for Magnetic field lines and their properties.",
+            "diagramType": "schematic",
+            "searchQuery": "Magnetic field lines and their properties Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Magnetic field lines and their properties",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      },
+      {
+        "id": "sec-12-2",
+        "sectionNumber": "12.2",
+        "title": "Field due to a current-carrying straight conductor (Right-Hand Thumb Rule)",
+        "summary": "Placeholder section for Field due to a current-carrying straight conductor (Right-Hand Thumb Rule).",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-12-2",
+            "title": "Magnetic Field of a Solenoid",
+            "caption": "Recommended NCERT scientific illustration for Field due to a current-carrying straight conductor (Right-Hand Thumb Rule).",
+            "diagramType": "schematic",
+            "searchQuery": "Field due to a current-carrying straight conductor (Right-Hand Thumb Rule) Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Field due to a current-carrying straight conductor (Right-Hand Thumb Rule)",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      },
+      {
+        "id": "sec-12-3",
+        "sectionNumber": "12.3",
+        "title": "Field due to a circular loop and Solenoid (Electromagnet)",
+        "summary": "Placeholder section for Field due to a circular loop and Solenoid (Electromagnet).",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-12-3",
+            "title": "Domestic Electric Circuit Schematic",
+            "caption": "Recommended NCERT scientific illustration for Field due to a circular loop and Solenoid (Electromagnet).",
+            "diagramType": "schematic",
+            "searchQuery": "Field due to a circular loop and Solenoid (Electromagnet) Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Field due to a circular loop and Solenoid (Electromagnet)",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      },
+      {
+        "id": "sec-12-4",
+        "sectionNumber": "12.4",
+        "title": "Force on a current-carrying conductor in a magnetic field & Fleming’s Left-Hand Rule",
+        "summary": "Placeholder section for Force on a current-carrying conductor in a magnetic field & Fleming’s Left-Hand Rule.",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-12-4",
+            "title": "Magnetic Field Lines around a Bar Magnet",
+            "caption": "Recommended NCERT scientific illustration for Force on a current-carrying conductor in a magnetic field & Fleming’s Left-Hand Rule.",
+            "diagramType": "schematic",
+            "searchQuery": "Force on a current-carrying conductor in a magnetic field & Fleming’s Left-Hand Rule Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Force on a current-carrying conductor in a magnetic field & Fleming’s Left-Hand Rule",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      },
+      {
+        "id": "sec-12-5",
+        "sectionNumber": "12.5",
+        "title": "Domestic electric circuits (Live, Neutral, Earth wire, Fuse and Earthing)",
+        "summary": "Placeholder section for Domestic electric circuits (Live, Neutral, Earth wire, Fuse and Earthing).",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-12-5",
+            "title": "Magnetic Field of a Solenoid",
+            "caption": "Recommended NCERT scientific illustration for Domestic electric circuits (Live, Neutral, Earth wire, Fuse and Earthing).",
+            "diagramType": "schematic",
+            "searchQuery": "Domestic electric circuits (Live, Neutral, Earth wire, Fuse and Earthing) Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Domestic electric circuits (Live, Neutral, Earth wire, Fuse and Earthing)",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      }
+    ],
+    "revisionChecklist": [
+      "Master core definitions and diagrams for Magnetic field lines and their properties.",
+      "Master core definitions and diagrams for Field due to a current-carrying straight conductor (Right-Hand Thumb Rule).",
+      "Master core definitions and diagrams for Field due to a circular loop and Solenoid (Electromagnet).",
+      "Master core definitions and diagrams for Force on a current-carrying conductor in a magnetic field & Fleming’s Left-Hand Rule.",
+      "Master core definitions and diagrams for Domestic electric circuits (Live, Neutral, Earth wire, Fuse and Earthing)."
+    ]
+  },
+  {
+    "id": "ch13-our-environment",
+    "subject": "Biology",
+    "classGrade": "CBSE Class 10",
+    "chapterNumber": 13,
+    "title": "Our Environment",
+    "subtitle": "Ecosystems, Trophic Levels & Ozone Depletion",
+    "status": "draft",
+    "version": 1,
+    "lastUpdated": "2026-10-18T18:29:36.963Z",
+    "estimatedReadTime": "Pending Notes Transcription",
+    "sourceInfo": {
+      "notebookTitle": "Pending Notebook Notes (Ch 13)",
+      "notebookPages": [],
+      "author": "Pending Upload / Dev Conversation Sync",
+      "transcribedAt": "Pending",
+      "transcriptionModel": "Gemini Multimodal (gemini-2.5-flash)",
+      "confidenceScore": 0,
+      "flaggedUncertaintiesCount": 0
+    },
+    "summary": "Awaiting handwritten notes for Chapter 13: Our Environment. Covers NCERT syllabus: Natural Resources. Ready to transcribe when photos/PDFs are provided.",
+    "tableOfContents": [
+      {
+        "sectionId": "sec-13-1",
+        "sectionNumber": "13.1",
+        "title": "Ecosystem components: Biotic and Abiotic"
+      },
+      {
+        "sectionId": "sec-13-2",
+        "sectionNumber": "13.2",
+        "title": "Food chains, food webs & 10% Energy Transfer Law"
+      },
+      {
+        "sectionId": "sec-13-3",
+        "sectionNumber": "13.3",
+        "title": "Biological Magnification of non-biodegradable pesticides"
+      },
+      {
+        "sectionId": "sec-13-4",
+        "sectionNumber": "13.4",
+        "title": "Ozone layer depletion (CFCs) and Waste Management methods"
+      }
+    ],
+    "sections": [
+      {
+        "id": "sec-13-1",
+        "sectionNumber": "13.1",
+        "title": "Ecosystem components: Biotic and Abiotic",
+        "summary": "Placeholder section for Ecosystem components: Biotic and Abiotic.",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-13-1",
+            "title": "Trophic Levels Ecological Pyramid",
+            "caption": "Recommended NCERT scientific illustration for Ecosystem components: Biotic and Abiotic.",
+            "diagramType": "schematic",
+            "searchQuery": "Ecosystem components: Biotic and Abiotic Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Ecosystem components: Biotic and Abiotic",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      },
+      {
+        "id": "sec-13-2",
+        "sectionNumber": "13.2",
+        "title": "Food chains, food webs & 10% Energy Transfer Law",
+        "summary": "Placeholder section for Food chains, food webs & 10% Energy Transfer Law.",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-13-2",
+            "title": "Biomagnification Flowchart in Aquatic Ecosystem",
+            "caption": "Recommended NCERT scientific illustration for Food chains, food webs & 10% Energy Transfer Law.",
+            "diagramType": "schematic",
+            "searchQuery": "Food chains, food webs & 10% Energy Transfer Law Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Food chains, food webs & 10% Energy Transfer Law",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      },
+      {
+        "id": "sec-13-3",
+        "sectionNumber": "13.3",
+        "title": "Biological Magnification of non-biodegradable pesticides",
+        "summary": "Placeholder section for Biological Magnification of non-biodegradable pesticides.",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-13-3",
+            "title": "Food Web in Terrestrial Ecosystem",
+            "caption": "Recommended NCERT scientific illustration for Biological Magnification of non-biodegradable pesticides.",
+            "diagramType": "schematic",
+            "searchQuery": "Biological Magnification of non-biodegradable pesticides Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Biological Magnification of non-biodegradable pesticides",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      },
+      {
+        "id": "sec-13-4",
+        "sectionNumber": "13.4",
+        "title": "Ozone layer depletion (CFCs) and Waste Management methods",
+        "summary": "Placeholder section for Ozone layer depletion (CFCs) and Waste Management methods.",
+        "sourceNotebookPages": [],
+        "paragraphs": [
+          "This section is currently queued for transcription. Provide your handwritten notebook photos or scan attachments in the development conversation or upload via Publisher Studio to generate the complete typeset content."
+        ],
+        "definitions": [],
+        "equations": [],
+        "tables": [],
+        "diagrams": [
+          {
+            "id": "diag-queue-13-4",
+            "title": "Trophic Levels Ecological Pyramid",
+            "caption": "Recommended NCERT scientific illustration for Ozone layer depletion (CFCs) and Waste Management methods.",
+            "diagramType": "schematic",
+            "searchQuery": "Ozone layer depletion (CFCs) and Waste Management methods Class 10 NCERT diagram",
+            "attribution": "CBSE NCERT Standard Curriculum",
+            "license": "Open Educational Curriculum",
+            "labels": []
+          }
+        ],
+        "examTips": [],
+        "uncertainties": [],
+        "keyTakeaways": [
+          "Key syllabus concept: Ozone layer depletion (CFCs) and Waste Management methods",
+          "Upload handwritten notes to replace this placeholder."
+        ]
+      }
+    ],
+    "revisionChecklist": [
+      "Master core definitions and diagrams for Ecosystem components: Biotic and Abiotic.",
+      "Master core definitions and diagrams for Food chains, food webs & 10% Energy Transfer Law.",
+      "Master core definitions and diagrams for Biological Magnification of non-biodegradable pesticides.",
+      "Master core definitions and diagrams for Ozone layer depletion (CFCs) and Waste Management methods."
+    ]
+  }
+]

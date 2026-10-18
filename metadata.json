@@ -1,0 +1,6 @@
+{
+  "name": "AI Science Notes — CBSE Class 10 Textbook",
+  "description": "Transforms handwritten CBSE Class 10 Science notes into a beautifully typeset digital textbook with live transcription sync and scientific diagrams.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
